@@ -1,0 +1,15 @@
+h1{
+    color:#26547C;
+    opacity: 1;
+}
+
+h2{
+    color:#26337C;
+    opacity: 2;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+
+}

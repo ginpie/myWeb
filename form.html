@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      HTML Form
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <!-- <meta http-equiv="refresh" content="2"; URL="www.google.com"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  </head>
+
+  <body>
+    <form>
+      Username:<input type="text" name="username"></input>
+      Password:<input type="password" name="password" autofocus></input>
+      <br><br>
+
+
+      <input type="radio" name="gender" value="male">Male</input>
+      <input type="radio" name="gender" value="female">Female</input>
+
+      <br><br>
+      <input type="checkbox" name="savepwd" value="saved">Save password</input>
+      <br>
+      <textarea name="msg" rows="3" cols="20"></textarea>
+
+      <br><br>
+      <select name="Number">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+
+      </select>
+
+      <br><br>
+      <input type="date" name="date" max="2000-01-01">Date</input>
+
+      <br><br>
+      <input type="submit" value="Submit"></input>
+    </form>
+
+    <br>
+    <form>
+      <input list="myList">
+      <datalist id="myList">
+        <option value="IE">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+      </datalist>
+      <input type="color" name="Color">
+      <br>
+      <input type="date" name="date">
+      <br>
+      <input type="email" name="email">
+      <br>
+      <input type="number" name="number" min="1" max="5">
+      <br>
+      <input type="text" name="text" value="Tony" size="90" readonly>
+      <br>
+      <input type="text" name="text" value="Stark" disabled>
+
+    </form>
+  </body>
+
+  <br><br><br><br><br><br>
+
+</html>
